@@ -24,3 +24,8 @@ echo "两数之商为  $val"
 # 计算余数
 val=`expr 5 % 4`
 echo "余数为  $val "
+
+# 除法小数
+echo "scale=2; 5*100/3" | bc -l
+
+
